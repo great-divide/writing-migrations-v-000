@@ -1,4 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
   
-  def 
+  def change
+    
 end
