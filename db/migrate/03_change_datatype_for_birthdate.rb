@@ -1,8 +1,6 @@
-class AddColumns < ActiveRecord::Migration[5.1]
+class ChangeColumn < ActiveRecord::Migration[5.1]
   
-  def change
-    change_column :students do
-      |t|
-      t.string  :birthdate
-    end
+  def change_column(table_name, column_name, type)
+      
+  end
 end
